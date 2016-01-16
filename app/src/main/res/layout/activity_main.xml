@@ -30,7 +30,7 @@
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/listView"
+        android:id="@+id/livTraffic"
         android:layout_below="@+id/textView"
         android:layout_above="@+id/button"
         android:layout_margin="20dp"
