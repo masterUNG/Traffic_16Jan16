@@ -66,6 +66,15 @@ public class MainActivity extends AppCompatActivity {
         titleStrings[18] = "หัวขัอหลัก ที่ 19";
         titleStrings[19] = "หัวขัอหลัก ที่ 20";
 
+        //#3
+        String[] descriptionStrings = getResources().getStringArray(R.array.description);
+
+        //Create ListView
+        MyAdapter objMyAdapter = new MyAdapter(getBaseContext(), iconInts,
+                titleStrings, descriptionStrings);
+        trafficListView.setAdapter(objMyAdapter);
+
+
     }   // listViewController
 
 
