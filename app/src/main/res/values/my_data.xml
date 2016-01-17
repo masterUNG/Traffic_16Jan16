@@ -26,4 +26,10 @@
 
     </string-array>
 
+    <string-array name="detail">
+
+        <item>รายละเอียดที่ 1 </item>
+
+    </string-array>
+
 </resources>
